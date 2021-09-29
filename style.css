@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+#containerPrincipal{
+    position: absolute;
+    background-color: hsl(240, 41%, 73%);
+    height: 90vh;
+    width: 1600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+#titulo {
+position: absolute;
+top: 50px;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 15px;
+font-family: Montserrat;
+color: hsl(230, 13%, 36%) ;
+}
+#backImg{
+    position: absolute;
+    margin-left: 930px;
+    margin-top: -120px;
+   
+}
+
+.switch {
+position: absolute;
+ margin-top: 100px;
+  
+  visibility: hidden;
+}
+
+.switch + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  
+}
+.switch--shadow + label {
+  padding: 2px;
+  margin-left:48%;
+  margin-top: 6.5%;
+  width: 50px;
+  height: 30px;
+  background-color: #dddddd;
+  border-radius: 75px;
+}
+.switch--shadow + label:before,
+.switch--shadow + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: '';
+}
+.switch--shadow + label:before {
+  right: 1px;
+  background-color: #f1f1f1;
+  border-radius: 60px;
+  transition: all 0.4s;
+}
+.switch--shadow + label:after {
+  width: 32px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+.switch--shadow:checked + label:before {
+  background-color: hsl(236, 72%, 79%);
+}
+.switch--shadow:checked + label:after {
+  transform: translateX(18px);
+}
+
+#M{
+    position: absolute;
+    margin-left: 40%;
+    top: 12%; 
+    font-family: Montserrat;
+    font-size: 18px;
+    color: hsl(235, 39%, 34%);   
+}
+#A{
+    position: absolute;
+    margin-left: 52.5%;
+    top: 12%;
+    font-family: Montserrat;
+    font-size: 18px;
+    color: hsl(235, 39%, 34%) ;   
+}
+#pl {
+    margin-top: 20px;
+    font-family: Montserrat;
+}
+#cards {
+   position: absolute;
+   top: 150px;
+   left: 350px;
+   text-align: center;
+  font-family: Montserrat;
+    font-size: 18px;
+    color: hsl(232, 13%, 33%);
+}
+
+#preços {
+    position: absolute;
+    font-size: 50pt;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Montserrat;
+    color: hsl(232, 13%, 33%);
+}
+#rs{
+    position: absolute;
+    margin-left: -18px;
+    margin-top: 50px;
+    font-size: 25pt;
+    font-family: Montserrat;
+    color: hsl(232, 13%, 33%);
+}
+#lista  {
+    margin-top: 10px;
+    color: hsl(232, 13%, 33%);
+}
+#link a {
+    color: hsl(232, 13%, 33%);
+ 
+    text-decoration: none;
+}
+#link {
+    
+    margin-top: -0px;
+    width: 200px;
+   
+    border: solid 2px;
+
+
+}
+.cards-body {
+    top: -50px;
+}
