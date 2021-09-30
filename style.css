@@ -10,17 +10,18 @@
     position: absolute;
     background-color: hsl(240, 78%, 98%);
     height: 1600px;
-    width: 400px;
+    width: 380px;
     top: 800px;
-    left: 50%;
+    left: 155px;
     transform: translate(-50%, -50%);
     background: cover;
    
 }
 #titulo {
 position: absolute;
+width: 250px;
 top: 100px;
-    left: 55%;
+    left: 250px;
     transform: translate(-50%, -50%);
    
 font-size: 15px;
