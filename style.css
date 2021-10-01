@@ -107,6 +107,7 @@ position: absolute;
     font-family: Montserrat;
     font-weight: bold;
     color: gray;
+    font-size: 15pt;
 }
 #contentar {
   margin-top: 50px;
@@ -129,7 +130,7 @@ position: absolute;
 
 #preços, #preços2, #preços3 {
     
-    font-size: 390%;
+    font-size: 45pt;
     margin-top: 0px;
     margin-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
@@ -251,11 +252,11 @@ position: absolute;
   width: 32px;
   background-color: #fff;
   border-radius: 100%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px blueviolet;
   transition: all 0.4s;
 }
 .switch--shadow:checked + label:before {
-  background-color: hsl(236, 72%, 79%);
+  background-color: blue;
 }
 .switch--shadow:checked + label:after {
   transform: translateX(18px);
@@ -281,19 +282,20 @@ position: absolute;
     margin-top: 20px;
     font-family: Montserrat;
     font-weight: bold;
-    color: hsl(232, 13%, 33%);
+    color: hsl(232, 6%, 49%);
+    font-size: 15pt;
 }
 #contentar {
   margin-left: 20px;
 }
 .card {
-  width: 15vw;
+  width: 17vw;
   height: 450px;
   
 }
 #cards{
   margin-left: 15%;
-  width: 65vw;
+  width: 68vw;
   margin-top: 40px;
 }
 #card1 {
@@ -318,7 +320,7 @@ text-align: center;
 
 #preços, #preços2, #preços3 {
     
-    font-size: 3.5vw;
+    font-size: 45pt;
     margin-top: 0px;
     margin-left: 5%;
     font-family: Montserrat;
@@ -326,16 +328,20 @@ text-align: center;
 }
 #rs, #rs2, #rs3{
     position: absolute;
-    margin-left: 10%;
+    
     margin-top: 10%;
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-family: Montserrat;
     color: hsl(232, 13%, 33%);
 }
+#grupoLista, #grupoLista2, #grupoLista3 {
+  border-color: gray;
+} 
 #lista1, #lista2, #lista3, #lista4, #lista5, #lista6, #lista7, #lista8, #lista9   {
   font-weight: bold;
     margin-top: 10px;
     color: hsl(229, 10%, 57%);
+    border-color: gray;
 }
 #link a,  #link2 a, #link3 a{
   
@@ -348,7 +354,7 @@ text-align: center;
     padding: 7px;
     width: 17vw;
     height: 40px;
-    margin-left: 5%;
+   
     background: hsl(236, 72%, 79%);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 5px;
