@@ -1,5 +1,5 @@
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 573px) {
  
   
    #containerPrincipal{
@@ -27,7 +27,7 @@ color: hsl(236, 6%, 50%) ;
 #backImg {
     
     height: 400px;
-    width: 190px;
+    width: 180px;
     margin-top: -195px;
     margin-left: 190px;
    
@@ -123,10 +123,11 @@ position: absolute;
     color: hsl(232, 13%, 33%);
     display: block;
     box-shadow: 0px 5px 20px hsl(234, 14%, 74%);
-    
+    width: 320px;
+    height: 470px;
 }
 
-#preços {
+#preços, #preços2, #preços3 {
     
     font-size: 390%;
     margin-top: 0px;
@@ -134,7 +135,10 @@ position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     color: hsl(232, 13%, 33%);
 }
-#rs2{
+#lista1, #lista2, #lista3, #lista4, #lista5, #lista6, #lista7, #lista8, #lista9 {
+  color: gray; ;
+}
+#rs, #rs2, #rs3{
     position: absolute;
     margin-left: 40px;
     margin-top: 35px;
@@ -148,14 +152,15 @@ position: absolute;
     margin-top: 10px;
     color: hsl(232, 13%, 33%);
 }
-#link a {
-    color: hsl(232, 13%, 33%);
- 
+#link a,  #link2 a, #link3 a {
+    
+      color: white;
+     border: none;
     text-decoration: none;
 }
-#link {
+#link, #link2, #link3 {
     background: hsl(236, 72%, 79%);
-    margin-top: -0px;
+    margin-top: 50px;
     width: 250px;
     margin-left: 15px;
     height: 38px;
@@ -163,10 +168,7 @@ position: absolute;
     padding: 6px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#link a {
-  color: white;
-  border: none;
-}
+
 .cards-body {
     top: -50px;
 }
@@ -174,7 +176,7 @@ position: absolute;
 
 }
 
-  @media screen and (min-width: 376px) {
+  @media screen and (min-width: 574px) {
     *{
     margin: 0;
     padding: 0;
@@ -182,9 +184,9 @@ position: absolute;
    #containerPrincipal{
     position: absolute;
     background-color: hsl(240, 78%, 98%);
-    height: 95vh;
-    width: 90vw;
-    top: 50%;
+    height: 800px;
+    width: 100vw;
+    top: 400px;
     left: 50%;
     transform: translate(-50%, -50%);
    
@@ -200,8 +202,9 @@ color: hsl(230, 13%, 36%) ;
 }
 #backImg{
     position: absolute;
-    margin-left: 1340px;
+    margin-left: 70%;
     margin-top: -120px;
+    width: 20vw;
    
 }
 
@@ -222,8 +225,8 @@ position: absolute;
 }
 .switch--shadow + label {
   padding: 2px;
-  margin-left: 820px;
-  margin-top: 110px;
+  margin-left: 48%;
+  margin-top: 90px;
   width: 50px;
   height: 30px;
   background-color: #dddddd;
@@ -264,7 +267,7 @@ position: absolute;
     top: 12%; 
     font-family: Montserrat;
     font-size: 18px;
-    color: hsl(235, 39%, 34%);   
+    color: hsl(229, 10%, 57%);  
 }
 #A{
     position: absolute;
@@ -272,70 +275,84 @@ position: absolute;
     top: 12%;
     font-family: Montserrat;
     font-size: 18px;
-    color: hsl(235, 39%, 34%) ;   
+    color: hsl(229, 10%, 57%);  
 }
-#pl {
+#pl, #pl2, #pl3 {
     margin-top: 20px;
     font-family: Montserrat;
+    font-weight: bold;
+    color: hsl(232, 13%, 33%);
 }
 #contentar {
   margin-left: 20px;
 }
+.card {
+  width: 15vw;
+  height: 450px;
+  
+}
+#cards{
+  margin-left: 15%;
+  width: 65vw;
+  margin-top: 40px;
+}
 #card1 {
-position: absolute;
-margin-left: 300px;
-margin-top: 100px;
+
+
 text-align: center;
+
 }
 #card2 {
-  position: absolute;
-margin-left: 670px;
-margin-top: 100px;
+  
+
 
 text-align: center;
 }
 #card3 {
-  position: absolute;
-margin-left: 1050px;
-margin-top:100px;
+ 
+
 text-align: center;
 }
 
 
 
-#preços {
-    position: absolute;
-    font-size: 350%;
-    margin-top: 10px;
-    margin-left: 80px;
-    font-family: Montserrat;
-    color: hsl(232, 13%, 33%);
-}
-#rs{
-    position: absolute;
-    margin-left: 30px;
-    margin-top: 35px;
-    font-size: 175%;
-    font-family: Montserrat;
-    color: hsl(232, 13%, 33%);
-}
-#lista  {
-    margin-top: 10px;
-    color: hsl(232, 13%, 33%);
-}
-#link a {
-    color: hsl(232, 13%, 33%);
- 
-    text-decoration: none;
-}
-#link {
+#preços, #preços2, #preços3 {
     
-    margin-top: 20px;
-    width: 250px;
-   margin-left: 20px;
-    border: solid 2px;
+    font-size: 3.5vw;
+    margin-top: 0px;
+    margin-left: 5%;
+    font-family: Montserrat;
+    color: hsl(232, 13%, 33%);
+}
+#rs, #rs2, #rs3{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 1.5vw;
+    font-family: Montserrat;
+    color: hsl(232, 13%, 33%);
+}
+#lista1, #lista2, #lista3, #lista4, #lista5, #lista6, #lista7, #lista8, #lista9   {
+  font-weight: bold;
+    margin-top: 10px;
+    color: hsl(229, 10%, 57%);
+}
+#link a,  #link2 a, #link3 a{
+  
+ color: white;
+   text-decoration: none;
+}
+#link, #link2, #link3{
+     
+    margin-top: 40px;
+    padding: 7px;
+    width: 17vw;
+    height: 40px;
+    margin-left: 5%;
+    background: hsl(236, 72%, 79%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 5px;
-
+  
 
 }
 .cards-body {
