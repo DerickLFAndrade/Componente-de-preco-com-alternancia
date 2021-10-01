@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planos</title>
 </head>
+
 <body>
+
     <div class="container-fluid" id="containerPrincipal">
-        <div id="titulo">
-            <h1><b>Nossos preços</b></h1>
-        </div>
-        <span >
-            <h2 id="A"><b>ANUAL</b></h2>
-            <h2 id="M"><b>MENSAL</b></h2>
-        </span>
-        <div class="switch__container">
+        <div class="switch__container" id="botao">
             <input id="switch-shadow" class="switch switch--shadow" type="checkbox" />
             <label for="switch-shadow" id="label"></label>
         </div>
-    
+        <div id="titulo">
+            <h1><b>Nossos preços</b></h1>
+        </div>
+        <span>
+            <h2 id="A"><b>Anual</b></h2>
+            <h2 id="M"><b>Mensal</b></h2>
+        </span>
+
+
 
         <svg id="backImg" xmlns="http://www.w3.org/2000/svg" width="375" height="658">
-            <g  fill="none" fill-rule="evenodd" stroke="#D0D5F6" stroke-width="2" >
+            <g fill="none" fill-rule="evenodd" stroke="#D0D5F6" stroke-width="2">
                 <path
                     d="M592.71-101C70.623-79.38 17.478-39.688 13.273 18.074c-6.307 86.643 231.598 17.186 136.358 198-95.241 180.813-181.818 185.29-136.358 298C58.233 626.784 178.96 685.954 319.21 641.2c93.501-29.836 144.652-140.545 153.453-332.126" />
                 <path
@@ -37,74 +41,81 @@
             </g>
         </svg>
 
-      
-            
-                
-                <div  id="cards">
-                    <div class="card" style="width: 320px; height: 500px" id="card1">
-                    
-                        <div class="card-body">
-                            <h5 id="pl" class="card-title">Básico</h5>
-                            <h1 id="rs">R$</h1>
-                            <h1 id="preços" class="card-text"><b>19,99</b></h1>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item" id="lista">500Gb/Armazenamento</li>
-                            <li class="list-group-item" id="lista">2 usuários permitidos</li>
-                            <li class="list-group-item" id="lista">Envie até 3GB</li>
-                        </ul>
-                    <div class="card-body">
-                        <div id="link">
-                            <a href="#" class="card-link">SAIBA MAIS</a>
-                        </div>
-                    </div>
-                    </div>
-                    
-                    <div class="content" id="contentar"></div>
-                    <div class="card" style="width: 320px; height: 500px" id="card2">
-                    
-                        <div class="card-body">
-                            <h5 id="pl" class="card-title">Profissional</h5>
-                            <h1 id="rs">R$</h1>
-                            <h1 id="preços" class="card-text"><b>24,99</b></h1>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item" id="lista">1TB/Armazenamento</li>
-                            <li class="list-group-item" id="lista">5 usuários permitidos</li>
-                            <li class="list-group-item" id="lista">Envie até 10GB</li>
-                        </ul>
-                        <div class="card-body">
-                            <div id="link">
-                                <a href="#" class="card-link">SAIBA MAIS</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                               <div class="content" id="contentar"></div>
-                    <div class="card" style="width: 320px; height: 500px;"  id="card3">
-                    
-                        <div class="card-body">
-                            <h5 id="pl" class="card-title">Mestre</h5>
-                            <h1 id="rs">R$</h1>
-                            <h1 id="preços" class="card-text"><b>39,99</b></h1>
-                        </div>
-                        <ul  class="list-group list-group-flush" id="lista">
-                        <li class="list-group-item" id="lista">2TB/Armazenamento</li>
-                        <li class="list-group-item" id="lista">10 usuários permitidos</li>
-                        <li class="list-group-item" id="lista">Envie até 20GB</li>
-                        </ul>
-                        <div class="card-body">
-                            <div id="link" >
-                                <a  href="#" class="card-link">SAIBA MAIS</a>
-                            </div>
-                        </div>
+
+
+
+        <div id="cards"></div>
+
+            <div class="card" style="width: 320px; height: 500px" id="card1">
+
+                <div class="card-body">
+                    <h5 id="pl" class="card-title">Básico</h5>
+                    <h1 id="rs">R$</h1>
+                    <h1 id="preços" class="card-text"><b>19,99</b></h1>
+                </div>
+                <ul class="list-group list-group-flush" id="grupoLista">
+
+                    <li class="list-group-item" id="lista1">500Gb/Armazenamento</li>
+                    <li class="list-group-item" id="lista2">2 usuários permitidos</li>
+                    <li class="list-group-item" id="lista3">Envie até 3GB</li>
+
+                </ul>
+                <div class="card-body">
+                    <div id="link">
+                        <a href="#" id="linka" class="card-link"><b>SAIBA MAIS</b></a>
                     </div>
                 </div>
+            </div>
 
+            <div class="content" id="contentar"></div>
+            <div class="card" style="width: 320px; height: 500px" id="card2">
+
+                <div class="card-body">
+                    <h5 id="pl2" class="card-title">Profissional</h5>
+                    <h1 id="rs2">R$</h1>
+                    <h1 id="preços2" class="card-text"><b>24,99</b></h1>
+                </div>
+                <ul class="list-group list-group-flush" id="grupoLista2">
+                    <li class="list-group-item" id="lista4">1TB/Armazenamento</li>
+                    <li class="list-group-item" id="lista5">5 usuários permitidos</li>
+                    <li class="list-group-item" id="lista6">Envie até 10GB</li>
+                </ul>
+                <div class="card-body">
+                    <div id="link2">
+                        <a href="#" id="linka2" class="card-link"><b>SAIBA MAIS</b></a>
+                    </div>
+                </div>
             </div>
+
+            <div class="content" id="contentar"></div>
+
+            <div class="card" style="width: 320px; height: 500px;" id="card3">
+
+                <div class="card-body">
+                    <h5 id="pl2" class="card-title">Mestre</h5>
+                    <h1 id="rs2">R$</h1>
+                    <h1 id="preços2" class="card-text"><b>39,99</b></h1>
+                </div>
+                <ul class="list-group list-group-flush" id="lista3">
+                    <li class="list-group-item" id="lista7">2TB/Armazenamento</li>
+                    <li class="list-group-item" id="lista8">10 usuários permitidos</li>
+                    <li class="list-group-item" id="lista9">Envie até 20GB</li>
+                </ul>
+                <div class="card-body">
+                    <div id="link3">
+                        <a href="#" id="linka3" class="card-link"><b>SAIBA MAIS</b></a>
+                    </div>
+                </div>
             </div>
+
+
+        </div>
+
     </div>
-    
+    </div>
+    </div>
+
     <script src="Js.js"></script>
 </body>
+
 </html>
