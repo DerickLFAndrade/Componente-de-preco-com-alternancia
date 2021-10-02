@@ -16,8 +16,8 @@
 #titulo {
 position: absolute;
 width: 250px;
-top: 100px;
-    left: 250px;
+top: 50px;
+    left: 300px;
     transform: translate(-50%, -50%);
    
 font-size: 15px;
@@ -28,62 +28,39 @@ color: hsl(236, 6%, 50%) ;
     
     height: 400px;
     width: 180px;
-    margin-top: -195px;
+    margin-top: -30px;
     margin-left: 190px;
    
 }
 
-.switch {
-position: absolute;
- margin-top: 100px;
-  
-  visibility: hidden;
+#area {
+  position: absolute;
+  padding: 1px;
+  width: 50px;
+  height: 26px;
+  background-color: hsl(236, 72%, 79%);
+    margin-left: 44.5%;
+  margin-top: 150px;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
-.switch + label {
-  display: block;
-  position: relative;
-  cursor: pointer;
-  outline: none;
-  user-select: none;
-  
+#anual {
+ border: none;
+  background: white;
+  width: 24px;
+  height: 24px;
+  margin-left: 0.9px;
+  margin-top: -0.5px;
+  border-radius: 20px;
 }
-.switch--shadow + label {
-  padding: 2px;
-  margin-left: 170px;
-  margin-top: 140px;
-  width: 50px;
-  height: 30px;
-  background-color: #dddddd;
-  border-radius: 75px;
-}
-.switch--shadow + label:before,
-.switch--shadow + label:after {
-  display: block;
-  position: absolute;
-  top: 1px;
-  left: 1px;
-  bottom: 1px;
-  content: '';
-}
-.switch--shadow + label:before {
-  right: 1px;
-  background-color: #f1f1f1;
-  border-radius: 60px;
-  transition: all 0.4s;
-}
-.switch--shadow + label:after {
-  width: 32px;
-  background-color: #fff;
-  border-radius: 100%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  transition: all 0.4s;
-}
-.switch--shadow:checked + label:before {
-  background-color: hsl(236, 72%, 79%);
-}
-.switch--shadow:checked + label:after {
-  transform: translateX(18px);
+#mensal {
+   border: none;
+  background: white;
+  width: 24px;
+  height: 24px;
+  margin-left: -6px;
+  border-radius: 20px;
 }
 
 #A{
@@ -115,7 +92,7 @@ position: absolute;
 .card {
   
     position: absolute;
-    top: 150px;
+    top: 120px;
     left: 42%;
     transform: translate(-35%, -50%);
     text-align: center;
@@ -141,7 +118,7 @@ position: absolute;
 }
 #rs, #rs2, #rs3{
     position: absolute;
-    margin-left: 40px;
+    margin-left: 25px;
     margin-top: 35px;
     font-size: 175%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -208,58 +185,34 @@ color: hsl(230, 13%, 36%) ;
     width: 20vw;
    
 }
-
-.switch {
-position: absolute;
- margin-top: 100px;
-  
-  visibility: hidden;
-}
-
-.switch + label {
-  display: block;
-  position: relative;
-  cursor: pointer;
-  outline: none;
-  user-select: none;
-  
-}
-.switch--shadow + label {
-  padding: 2px;
-  margin-left: 48%;
-  margin-top: 90px;
-  width: 50px;
-  height: 30px;
-  background-color: #dddddd;
-  border-radius: 75px;
-}
-.switch--shadow + label:before,
-.switch--shadow + label:after {
-  display: block;
+#area {
   position: absolute;
-  top: 1px;
-  left: 1px;
-  bottom: 1px;
-  content: '';
+  padding: 1px;
+  width: 50px;
+  height: 26px;
+  background-color: hsl(236, 72%, 79%);
+    margin-left: 46.5%;
+  margin-top: 95px;
+  border-radius: 15px;
+  cursor: pointer;
 }
-.switch--shadow + label:before {
-  right: 1px;
-  background-color: #f1f1f1;
-  border-radius: 60px;
-  transition: all 0.4s;
+
+#anual {
+ border: none;
+  background: white;
+  width: 24px;
+  height: 24px;
+  margin-left: 0.9px;
+  margin-top: -0.5px;
+  border-radius: 20px;
 }
-.switch--shadow + label:after {
-  width: 32px;
-  background-color: #fff;
-  border-radius: 100%;
-  box-shadow: 0px 0px 8px blueviolet;
-  transition: all 0.4s;
-}
-.switch--shadow:checked + label:before {
-  background-color: blue;
-}
-.switch--shadow:checked + label:after {
-  transform: translateX(18px);
+#mensal {
+   border: none;
+  background: white;
+  width: 24px;
+  height: 24px;
+  margin-left: -6px;
+  border-radius: 20px;
 }
 
 #M{
@@ -296,7 +249,7 @@ position: absolute;
 #cards{
   margin-left: 15%;
   width: 68vw;
-  margin-top: 40px;
+  margin-top: 200px;
 }
 #card1 {
 

@@ -1,8 +1,8 @@
 var card1 = document.getElementById("card1")
 var card2 = document.getElementById("card2")
 var card3 = document.getElementById("card3")
-var botao = document.getElementById('botao')
-var botao2 = document.getElementById('switch-shadow')
+var botao = document.getElementById('switch-shadow')
+var botao2 = document.getElementById('label')
 
 
 function mudaCor1() {
@@ -255,29 +255,27 @@ card3.addEventListener('click', voltaCor2)
 card1.addEventListener('click', voltaCor3)
 card2.addEventListener('click', voltaCor3)
 
+var anual1 = document.getElementById('anual')
+var mensal1 = document.getElementById('mensal')
+var area = document.getElementById('area')
+mensal1.style.visibility = 'hidden'
+
 function mensal() {
     document.getElementById('preços').innerHTML = '<b>19,99</b>'
     document.getElementById('preços2').innerHTML = '<b>24,99</b>'
     document.getElementById('preços3').innerHTML = '<b>39,99</b>'
-    botao2.addEventListener('click', anual)
-    validar = 1
-  }
+  anual1.style.visibility = 'visible'
+  mensal1.style.visibility = 'hidden'
+}
 function anual() {
-   
+  mensal1.style.visibility = 'visible'
+  anual1.style.visibility = 'hidden'
     document.getElementById('preços').innerHTML = '<b>199,99</b>'
     document.getElementById('preços2').innerHTML = '<b>249,99</b>'
     document.getElementById('preços3').innerHTML = '<b>399,99</b>'
-    validar = 0
-    botao2.addEventListener('click', mensal)
-    
 }
 
-document.getElementById('preços').innerHTML = '<b>19,99</b>'
-document.getElementById('preços2').innerHTML = '<b>24,99</b>'
-document.getElementById('preços3').innerHTML = '<b>39,99</b>'
 
 
-setInterval(
-botao2.addEventListener('click', anual)
-) 
-    
+anual1.addEventListener('click', anual)
+mensal1.addEventListener('click', mensal)
