@@ -63,7 +63,7 @@ color: hsl(236, 6%, 50%) ;
   border-radius: 20px;
 }
 
-#A{
+#M{
     position: absolute;
     margin-left: 80px;
     top: 145px; 
@@ -71,7 +71,7 @@ color: hsl(236, 6%, 50%) ;
     font-size: 20px;
     color:  hsl(235, 7%, 64%);   
 }
-#M{
+#A{
     position: absolute;
     margin-left: 250px;
     top: 145px; 
